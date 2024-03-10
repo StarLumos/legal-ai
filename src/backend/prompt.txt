@@ -1,0 +1,169 @@
+--An A.I App that takes in long many-paragraphs verbose jargon-ridden legal documents and summarizes them in ideally 1-3 layman-friendly sentences--
+
+[Input]:
+TERMINATION OF PLATFORM ACCESS AGREEMENT
+
+This Termination of Platform Access Agreement ("Agreement") is entered into on this [Insert Date] ("Effective Date") by and between [Company Name], a [Jurisdiction] corporation, with its principal place of business at [Address] ("Provider"), and [Application User], a user of the platform provided by Provider ("Application User").
+
+WHEREAS, Provider operates an online platform ("Platform") that allows users to access various services, features, and functionalities;
+
+WHEREAS, Application User desires to access and utilize the Platform provided by Provider;
+
+WHEREAS, Provider desires to grant Application User access to the Platform, subject to the terms and conditions of this Agreement;
+
+NOW, THEREFORE, in consideration of the mutual covenants, terms, and conditions set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+    Platform Access: Subject to the terms and conditions of this Agreement, Provider hereby grants Application User a limited, non-exclusive, non-transferable right to access and use the Platform solely for Application User’s internal business purposes.
+
+    Termination: Provider reserves the right, in its sole discretion, to terminate Application User's access to the Platform at any time, with or without cause, and with or without notice. Without limiting the foregoing, Provider may terminate Application User's access to the Platform if Application User breaches any provision of this Agreement or engages in any conduct that Provider, in its sole discretion, determines to be inappropriate, harmful, or in violation of any applicable law or regulation.
+
+    Effect of Termination: Upon termination of Application User's access to the Platform, all rights and licenses granted to Application User under this Agreement shall immediately cease, and Application User shall immediately cease all use of the Platform. Termination of this Agreement shall not relieve Application User of any obligations accrued prior to such termination.
+
+    Survival: Sections 3, 4, 5, and 6 of this Agreement shall survive any termination or expiration of this Agreement.
+
+    Governing Law: This Agreement shall be governed by and construed in accordance with the laws of the State of [Jurisdiction], without giving effect to any choice of law or conflict of law provisions.
+
+    Amendment: This Agreement may only be amended or modified in writing and signed by both parties.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the Effective Date.
+
+[Output Summary]:
+You may be lose access to this platform for any reason at anytime to any extent. The company has complete control and ownership over anything you produce on the platform.
+
+[Input]:
+Terms of Service Agreement for Website Tracking and Ad Marketing
+
+Welcome to our platform! Before you proceed, please take a moment to carefully review the following terms and conditions that govern your use of our services. By accessing or using our website, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, please do not access or use our services.
+
+1. Definitions
+
+1.1. "Platform" refers to our website, its contents, and associated services.
+
+1.2. "User" refers to any individual accessing or using our platform.
+
+1.3. "Tracking" encompasses the collection, recording, and analysis of user data for various purposes.
+
+2. Website Tracking
+
+2.1. By using our platform, you acknowledge and consent to our use of tracking technologies.
+
+2.2. We may employ cookies, web beacons, and other tracking mechanisms to monitor and collect information about your browsing activities.
+
+2.3. This tracking may include but is not limited to: pages visited, time spent on each page, links clicked, and other interactions with our platform.
+
+3. Data Collection and Usage
+
+3.1. The data collected through tracking mechanisms may be used for various purposes, including but not limited to:
+
+    Customizing your experience on our platform.
+    Analyzing user behavior and preferences.
+    Delivering targeted advertisements.
+
+3.2. We may also combine the information collected with data obtained from third parties for marketing and analytics purposes.
+
+4. Ad Marketing
+
+4.1. By accepting these terms, you agree to allow us to use the data collected for targeted advertising.
+
+4.2. Targeted advertising may involve displaying personalized ads based on your browsing history and preferences.
+
+4.3. While we strive to provide relevant advertisements, we cannot guarantee the accuracy or effectiveness of our targeting efforts.
+
+5. Privacy Concerns
+
+5.1. We are committed to protecting your privacy and safeguarding your personal information.
+
+5.2. However, please be aware that no method of data transmission over the internet is entirely secure, and we cannot guarantee the absolute security of your information.
+
+5.3. By using our platform, you acknowledge and accept the inherent privacy risks associated with online activities.
+
+6. Opting Out
+
+6.1. If you do not wish to participate in our tracking and ad marketing practices, you may opt out by adjusting your browser settings or contacting us directly.
+
+6.2. Please note that opting out may affect your ability to access certain features or services on our platform.
+
+7. Amendments
+
+7.1. We reserve the right to modify or update these terms of service at any time without prior notice.
+
+7.2. It is your responsibility to regularly review these terms for any changes.
+
+8. Governing Law
+
+8.1. These terms of service shall be governed by and construed in accordance with the laws of [Jurisdiction].
+
+9. Contact Information
+
+9.1. If you have any questions or concerns regarding these terms or our privacy practices, please contact us at [Contact Information].
+
+By continuing to use our platform, you signify your acceptance of these terms and conditions. If you do not agree to these terms, please refrain from using our services. Thank you for your understanding and cooperation.
+
+[Output Summary]:
+This website may monitor your activity on the website and your activity across other websites you vist. The data they collect may be used to create targeted advertisements. No internet security is promised and you can opt out at any time.
+
+[Input]:
+This agreement ("Agreement") is made and entered into on [Date], by and between:
+
+[Party 1 Name], a [Type of Entity] organized and existing under the laws of [Jurisdiction], with its principal place of business located at [Address] ("Party 1"), and
+
+[Party 2 Name], a [Type of Entity] organized and existing under the laws of [Jurisdiction], with its principal place of business located at [Address] ("Party 2").
+
+Definitions
+
+In this Agreement, unless the context otherwise requires, the following terms shall have the meanings assigned to them:
+
+"Affiliate" shall mean any entity that directly or indirectly controls, is controlled by, or is under common control with the referenced entity.
+"Confidential Information" shall mean any and all non-public information disclosed by one party to the other party, whether orally or in writing, that is designated as confidential or that reasonably should be understood to be confidential.
+[Include additional definitions as necessary.]
+Representations and Warranties
+
+Party 1 represents and warrants to Party 2 that:
+
+Party 1 has full power and authority to enter into this Agreement and to carry out its obligations hereunder.
+The execution, delivery, and performance of this Agreement by Party 1 have been duly authorized by all necessary corporate action.
+[Include additional representations and warranties as necessary.]
+Party 2 represents and warrants to Party 1 that:
+
+Party 2 has full power and authority to enter into this Agreement and to carry out its obligations hereunder.
+The execution, delivery, and performance of this Agreement by Party 2 have been duly authorized by all necessary corporate action.
+[Include additional representations and warranties as necessary.]
+Conditions Precedent
+
+The obligations of Party 1 and Party 2 under this Agreement are subject to the satisfaction of the following conditions precedent:
+
+[List conditions precedent, such as regulatory approvals, completion of due diligence, etc.]
+Covenants
+
+Party 1 and Party 2 covenant and agree as follows:
+
+[List covenants, such as cooperation in regulatory filings, maintaining confidentiality, etc.]
+Indemnification
+
+Each party shall indemnify, defend, and hold harmless the other party, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to any breach of this Agreement by the indemnifying party.
+
+Confidentiality
+
+During the term of this Agreement and thereafter, each party shall maintain the confidentiality of all Confidential Information received from the other party and shall not disclose such Confidential Information to any third party without the prior written consent of the disclosing party.
+
+Intellectual Property
+
+All intellectual property rights created, developed, or otherwise arising under this Agreement shall be owned by the party that created or developed such intellectual property rights.
+
+Dispute Resolution
+
+Any dispute, controversy, or claim arising out of or relating to this Agreement or the breach, termination, or invalidity thereof shall be settled by arbitration in accordance with the rules of [Arbitration Institution], and judgment upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof.
+
+Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of [Jurisdiction].
+
+Miscellaneous Provisions
+
+This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior agreements and understandings, whether written or oral.
+This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+[Include any other miscellaneous provisions as necessary.]
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first above written.
+
+[Output]:
+You agree on representations, actions to be performed when a certain condition occured, how compensation will be carried out, how confidentiality will be acted upon, what the intellectual property agreements are, how any disputes will be resolved, and what law these disputes will be solved by.  
