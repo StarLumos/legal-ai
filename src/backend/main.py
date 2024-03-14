@@ -3,11 +3,12 @@ from flask_cors import CORS
 from openai import OpenAI
 from dotenv import dotenv_values
 
+from flask import Flask, jsonify, request
 server = Flask(__name__)
 CORS(server)
+
 config = dotenv_values(".env")
 client = OpenAI(api_key = config['api'])
-
 
 def read_file(filepath: str) -> str:
     with open(filepath, "r") as f:
@@ -25,19 +26,14 @@ def generate(prompt: str, document: str) -> str:
     ).choices[0].message.content
     return str(response)
 
-@server.route('/')
-def home():
-    return "hello world"
-
-@server.route('/test')
+@server.route('/generate', methods=['POST'])
 def test():
-    print("anything")
+    text = request.get_json()['text']
+    print("user sent", text)
+    generation = generate(read_file("prompt.txt"), text)
+    print("THE RESULT IS",generation)
 
-    data = request.get_json()
-    text = data['text']
-    print("user sent ", text)
-    
-    return jsonify({'result': "sup dog"})
+    return jsonify({'result': generation})
 
 
 if __name__ == '__main__':

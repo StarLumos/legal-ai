@@ -5,33 +5,80 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <title>Document</title>
     <style>
-        #prompt {
-            resize: none;
-            border: 2px solid red;
-        }
-        #submit-btn { 
-            width: 90px;
-            height: 60px;
-            background-color: green;
-        }
-        #output {
-            background-color: blue;
-            width: 90%;
-            height: 80%;
+        * {
+            background-color: rgb(25, 25, 25);
+            margin: 0;
+            padding: 0;
         }
         body {
-            border: 5px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-y: hidden;
+        }
+        #main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 90%;
+            width: 90%;
+        }
+        #branding {
+            color: rgb(4, 255, 130);
+            margin-bottom: 10px;
+        }
+        #input-container {
+            background: none;
+            display: flex;
+            margin-top: 30px;
+            border-radius: 15px;
+            width: 90%;
+        }
+        #input {
+            background-color: rgb(33, 33, 33);
+            color:rgb(4, 255, 130);
+            padding-left: 10px;
+            padding-top: 5px;
+            border: none;
+            resize: none;
+            border-radius: 15px;
+            height: 80px;
+            width: 100%;
+        }
+        #submit-btn {
+            background-color: rgb(33, 33, 33);
+            color: rgb(4, 255, 130);
+            margin-left: 15px;
+            border: none;
+            border-radius: 15px;
+            height: 80px;
+            width: 120px;
+        }
+        #output {
+            background-color: rgb(33, 33, 33);
+            color:rgb(4, 255, 130);
+            padding-left: 15px;
+            padding-top: 10px;
+            
+            border-radius: 15px;
+            height: 80%;
+            width: 90%;
+        }
+        body {
             height: 100vh;
         }
     </style>
 </head>
 <body>
-    
-    <textarea id = "prompt" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cumque atque iusto unde vero repellat voluptates voluptas beatae, expedita quasi laudantium dolor, ab aut tempore alias perspiciatis maxime, iure minima!"></textarea>
-    <button id="submit-btn" onclick = "sample()">Submit</button>
-    <section id = "output">A</section>
-
+    <div id="main">
+        <h1 id="branding" style="font-family: Arial">Legal AI</h1>
+        <section id = "output" style="font-family: Arial"></section>
+        <div id="input-container">
+            <textarea id = "input" style="font-family: Arial" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cumque atque iusto unde vero repellat voluptates voluptas beatae, expedita quasi laudantium dolor, ab aut tempore alias perspiciatis maxime, iure minima!"></textarea>
+            <button id="submit-btn" onclick = "sample()" style="font-family: Arial">Submit</button>
+        </div>
+    </div>
     <script src="main.js"></script>
-
 </body>
 </html>

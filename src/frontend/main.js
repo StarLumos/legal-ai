@@ -1,16 +1,15 @@
 function sample() {
-
-    alert("sending data")
-    var textarea = document.getElementById("prompt")
-
-    var response = fetch("http://127.0.0.1:8000/test",  {
-        method: 'GET',
+    var input = document.getElementById("input")
+    fetch("http://127.0.0.1:8000/generate",  {
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ text: text })
+        body: JSON.stringify({ text: input.innerHTML })
     })
-        .then(res => res.json())
-        .then(data => alert(data))
-    alert(response)
+    .then(response => response.json())
+    .then(data => {
+        var output = document.getElementById("output")
+        output.innerText = data.result
+    })
 }
