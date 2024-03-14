@@ -28,20 +28,19 @@
             color: rgb(4, 255, 130);
             margin-bottom: 10px;
         }
-        #input-container {
+        #output-container {
             background: none;
             display: flex;
             margin-top: 30px;
             border-radius: 15px;
             width: 90%;
         }
-        #input {
+        #output {
             background-color: rgb(33, 33, 33);
             color:rgb(4, 255, 130);
             padding-left: 10px;
             padding-top: 5px;
-            border: none;
-            resize: none;
+
             border-radius: 15px;
             height: 80px;
             width: 100%;
@@ -55,12 +54,13 @@
             height: 80px;
             width: 120px;
         }
-        #output {
+        #input {
             background-color: rgb(33, 33, 33);
             color:rgb(4, 255, 130);
             padding-left: 15px;
             padding-top: 10px;
-            
+            border: none;
+            resize: none;
             border-radius: 15px;
             height: 80%;
             width: 90%;
@@ -73,9 +73,9 @@
 <body>
     <div id="main">
         <h1 id="branding" style="font-family: Arial">Legal AI</h1>
-        <section id = "output" style="font-family: Arial"></section>
-        <div id="input-container">
-            <textarea id = "input" style="font-family: Arial" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cumque atque iusto unde vero repellat voluptates voluptas beatae, expedita quasi laudantium dolor, ab aut tempore alias perspiciatis maxime, iure minima!"></textarea>
+        <textarea id="input" style="font-family: Arial" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate cumque atque iusto unde vero repellat voluptates voluptas beatae, expedita quasi laudantium dolor, ab aut tempore alias perspiciatis maxime, iure minima!"></textarea>
+        <div id="output-container">
+            <div id = "output" style="font-family: Arial"></div>
             <button id="submit-btn" onclick = "sample()" style="font-family: Arial">Submit</button>
         </div>
     </div>
