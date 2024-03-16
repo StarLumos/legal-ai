@@ -1,4 +1,7 @@
 # Legal AI
+## A brief introduction
+Legal AI is a program based on Python, JavaScript, and HTML that uses an API linking Open AI's ChatGPT. In short, the program takes an input (particularly a long, complicated legal document) and outputs the summary of the document, saving the user the time and effort of a futile attempt to read and understand the document. 
+
 ## Installation
 Clone this repository 
 ```
